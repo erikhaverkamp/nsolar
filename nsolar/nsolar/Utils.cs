@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace nsolar
 {
-    public class Utils
+    public static class Utils
     {
+        public static double ConvertToRadians(double angle)
+        {
+            return (Math.PI / 180) * angle;
+        }
+
+        public static double ConvertToDegrees(double angle)
+        {
+            return (180 * angle) / Math.PI;
+        }
+
     }
 }
