@@ -19,5 +19,6 @@ namespace nsolar
         public const double air_gas_constant = 8.31432;//  # N*m/s^2
         public const double earth_gravity = 9.80665;//  # m/s^2 or N/kg
         public const double earth_atmosphere_molar_mass = 0.0289644;//  # kg/mol
+        public const double author_mass = 88.7;//  # kg
     }
 }
