@@ -40,6 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Constants.cs" />
+    <Compile Include="Nutation.cs" />
     <Compile Include="Solar.cs" />
     <Compile Include="Time.cs" />
     <Compile Include="Utils.cs" />
